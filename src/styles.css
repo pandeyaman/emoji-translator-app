@@ -1,0 +1,49 @@
+body {
+  /* border: 1px solid red; */
+  background-color: #f9ca24;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.p-header {
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.p-emojiName {
+  font-size: 1.5rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: transparent;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.input-box {
+  width: 25%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 0.3rem;
+  background-color: #f6e58d;
+}
+
+.input-box::placeholder {
+  font-size: 1rem;
+}
+
+.div-emoji-display {
+  width: 60%;
+  margin: 2rem auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .div-emoji-display {
+    width: 80%;
+    margin: 1rem auto;
+  }
+}
